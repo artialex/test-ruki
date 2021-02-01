@@ -1,0 +1,15 @@
+.root {
+  font-family: inherit;
+  height: 36px;
+  letter-spacing: 0.0125em;
+  line-height: 15px;
+  font-size: 14px;
+  width: 100%;
+  background-color: #5a3472;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

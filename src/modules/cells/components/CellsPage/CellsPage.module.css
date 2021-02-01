@@ -1,0 +1,13 @@
+.root {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  background: linear-gradient(180deg, #310050 0%, #000000 100%);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cells {
+  flex: 2;
+}

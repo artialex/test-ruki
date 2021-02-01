@@ -1,0 +1,10 @@
+.root {
+  height: 28px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 22px;
+  letter-spacing: 0.0015em;
+  color: white;
+}

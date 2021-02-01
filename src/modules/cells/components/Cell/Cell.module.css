@@ -1,0 +1,54 @@
+.root {
+  background-color: white;
+  display: flex;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.icon {
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.dead {
+  background: linear-gradient(180deg, #0d658a 0%, #b0ffb4 100%);
+}
+.dead::before {
+  display: block;
+  content: '💀';
+}
+
+.alive {
+  background: linear-gradient(180deg, #ffb800 0%, #fff7b0 100%);
+}
+.alive::before {
+  display: block;
+  content: '💥';
+}
+
+.life {
+  background: linear-gradient(180deg, #ad00ff 0%, #ffb0e9 100%);
+}
+.life::before {
+  display: block;
+  content: '🐣';
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.0015em;
+}
+.subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0025em;
+}
