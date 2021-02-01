@@ -1,6 +1,6 @@
 # Test exercise for a company 'Ruki'
 
-https://alexthartisan.github.io/test-ruki
+https://alextheartisan.github.io/test-ruki
 
 ## Description
 
